@@ -1,0 +1,68 @@
+# teste page restaurant
+- tapOn:
+      id: "chevron-down" # a chercher l'id chevron pour aller sur la page Mes adresses  
+- assertVisible:
+      text: "Mes adresses"
+- inputText: "6 Rue Léon Maître, 44000 Nantes, France"
+# vérifier que les restaurant s'affiche 
+- assertVisible:
+      text: "Pré-commander"
+- assertVisible:
+      id: "clock" # a chercher l'id clock pour plus de précision sur l'affichage des restaurant
+- tapOn:
+      text: "Pré-commander"
+- asserVisible:
+      id: "circle-info" # a chercher l'id circle-info sur la page Restaurant pour passer une commande
+- tapOn:
+      id: "circle-info"
+- assertVisible:
+      text: "Horaires d'ouverture"
+- assertVisible:
+      id: "map" # pour vérifier que l'adresse s'affiche 
+- assertVisible:
+      id: "phone" # pour contacterle restaurant
+- tap: # pour fermer la fenêtre Horaire d'ouverture
+      x: 200
+      y: 100
+- scroll:
+      direction: DOWN
+- scroll:
+      direction: UP
+# voir comment appuyer sur une image (les menus) est ce avec un id ?
+- tapOn:
+      text: "menu"
+- tapOn:
+      id: "chevron-left" # pour vérifier si on peut faire un retour et revenir sur la page Restaurant
+- tapOn:
+      text: "menu"  
+- assertVisible:
+      text: "Quantité"
+- assertVisible:
+      id: "-" # a chercher l'id moin
+- assertVisible:
+      id: "+" # a chercher l'id plus
+
+- assertVisible:
+      text: "1"
+- tapOn: # pour verifier que la Quantité s'incrément
+      id: "+" 
+- assertVisible:
+      text: "2"
+- tapOn: # pour verifier que la Quantité décremente
+      id: "-"
+- assertVisible:
+      text: "1"
+- assertVisible: 
+      text: "Ajouter au panier"
+- tapOn:
+      text: "Ajouter au panier"
+- assertVisible:
+      text: "Restaurant"
+- assertVisible:
+      text: "Commander"
+- tapOn:
+      text: "Commander"
+
+
+
+
