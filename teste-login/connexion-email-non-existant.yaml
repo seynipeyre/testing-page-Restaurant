@@ -1,0 +1,11 @@
+# connexion email valide non existant
+putText:
+      id: "Nom d'utilisateur"
+      text: "jeanpierre@gmail.com"
+- inputText:
+      id: "Mot de passe"
+      text: "Test123456_"
+- tapOn:
+      id: "Valider"
+- assertVisible:
+      text: "Utilisateur et/ou mot de passe inexistant"

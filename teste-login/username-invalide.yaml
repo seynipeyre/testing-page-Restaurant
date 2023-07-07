@@ -1,0 +1,11 @@
+# username invalide
+- inputText:
+      id: "Nom d'utilisateur"
+      text: "john"
+- inputText:
+      id: "Mot de passe"
+      text: "Test123456_"
+- tapOn:
+      id: "Valider"
+- assertVisible:
+      text: "Utilisateur et/ou mot de passe inexistant"

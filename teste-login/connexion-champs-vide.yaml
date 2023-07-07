@@ -1,0 +1,7 @@
+# connexion-champs-vide
+- assertVisible:
+      text: "Nom d'utilisateur"
+- assertVisible:
+      text: "Mot de place"
+- tapOn:
+      id: "Valider"

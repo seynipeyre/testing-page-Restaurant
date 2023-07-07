@@ -1,0 +1,9 @@
+# connexion valide
+- inputText:
+      id: Nom d'utilisateur
+      text: "johndoe"
+- inputText:
+      id: Mot de passe
+      text: "Test123456_"
+- tapOn:
+      id: "Valider"
