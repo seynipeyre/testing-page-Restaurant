@@ -1,5 +1,5 @@
 # connexion email valide non existant
-putText:
+- inputText:
       id: "Nom d'utilisateur"
       text: "jeanpierre@gmail.com"
 - inputText:

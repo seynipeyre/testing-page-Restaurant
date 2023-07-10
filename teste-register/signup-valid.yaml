@@ -1,0 +1,36 @@
+# signup-valid
+# - assertVisible:
+#       text: "Mon compte"
+# - inputText:
+#       id: "E-mail"
+#       text: "johndoe@foo.dev"
+# - inputText:
+#       id: "Nom d'utilisateur"
+#       text: "john"
+# - inputText:
+#       id: "Mot de passe"
+#       text: "Test123456_"
+# - inputText:
+#       id: "confirmez le mot de passe"
+#       text: "Test123456_"
+# - inputText:
+#       id: "Prénom"
+#       text: "John"
+# - inputText:
+#       id: "Nom de Famille"
+#       text: "Doe"
+# - tapOn:
+#     id: "J'accepte les conditions générales
+#         et la politique de confidentialité"      
+# - tapOn:
+#     id: "Valider" 
+# - assertVisible:
+#     text: "Activation"  
+# - tapOn:
+#     id: "Identifiez-vous"
+# - assertVisible:
+#     text: "Mon compte"  
+# - assertVisible:
+#     text: "Bonjour John"  
+# - assertVisible:
+#     text: "Déconnexion"   
