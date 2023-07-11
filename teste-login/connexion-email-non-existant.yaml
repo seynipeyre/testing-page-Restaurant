@@ -1,4 +1,6 @@
 # connexion email valide non existant
+- assertVisible:
+      text: "Mon compte"
 - inputText:
       id: "Nom d'utilisateur"
       text: "jeanpierre@gmail.com"

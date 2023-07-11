@@ -1,0 +1,20 @@
+# signup tout les champs vide
+- assertVisible:
+      text: "Mon compte"
+- tapOn:
+    id: "Valider" 
+- assertVisible:
+    text: "Veuillez entrer un email valide" 
+- assertVisible:
+    text: "Veuillez entrer un nom d'utilisateur valide"  
+- assertVisible:
+    text: "Veuillez entrer un mot de passe valide
+          d'au moins 8 caractères"  
+- assertVisible:
+      text: "Veuillez entrer un prénom valide" 
+- assertVisible:
+      text: "Veuillez entrer un nom de famile valide"         
+- assertVisible:
+    text: "Vous devez accepter les conditions générales
+          et la politique de confidentialité" 
+  

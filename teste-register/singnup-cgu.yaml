@@ -18,10 +18,7 @@
       text: "John"
 - inputText:
       id: "Nom de Famille"
-      text: "Doe"
-- tapOn:
-    id: "J'accepte les conditions générales
-        et la politique de confidentialité"      
+      text: "Doe"      
 - tapOn:
     id: "Valider" 
 - assertVisible:

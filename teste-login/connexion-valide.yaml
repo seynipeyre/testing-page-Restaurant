@@ -1,4 +1,6 @@
 # connexion valide
+- assertVisible:
+      text: "Mon compte"
 - inputText:
       id: Nom d'utilisateur
       text: "johndoe"
@@ -7,3 +9,5 @@
       text: "Test123456_"
 - tapOn:
       id: "Valider"
+- assertNotVisible:
+      text: "Mon compte"

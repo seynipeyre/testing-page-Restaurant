@@ -3,7 +3,7 @@
       text: "Mon compte"
 - inputText:
       id: "E-mail"
-      text: "johndoefo.dev"
+      text: "johndoe@fo.dev"
 - inputText:
       id: "Nom d'utilisateur"
       text: "j"

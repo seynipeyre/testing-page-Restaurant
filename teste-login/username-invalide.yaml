@@ -1,4 +1,6 @@
 # username invalide
+- assertVisible:
+      text: "Mon commpte"
 - inputText:
       id: "Nom d'utilisateur"
       text: "john"

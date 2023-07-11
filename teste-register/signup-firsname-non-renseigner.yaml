@@ -1,4 +1,4 @@
-# signup short password 
+# singup firsname non renseigner
 - assertVisible:
       text: "Mon compte"
 - inputText:
@@ -9,22 +9,18 @@
       text: "john"
 - inputText:
       id: "Mot de passe"
-      text: "Tes"
+      text: "Test123456_"
 - inputText:
       id: "confirmez le mot de passe"
-      text: "Tes"
-- inputText:
-      id: "Prénom"
-      text: "John"
+      text: "Test123456_"
 - inputText:
       id: "Nom de Famille"
       text: "Doe"
 - tapOn:
-    id: "J'accepte les conditions générales
-        et la politique de confidentialité"      
+      id: "J'accepte les conditions générales
+          et la politique de confidentialité"      
 - tapOn:
-    id: "Valider" 
+      id: "Valider" 
 - assertVisible:
-    text: "Veuillez entrer un mot de passe valide
-          d'au moins 8 caractères"  
+      text: "Veuillez entrer un prénom valide"  
   

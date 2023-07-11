@@ -1,12 +1,12 @@
-# signup username déjà existant
+# signup-valid
 - assertVisible:
       text: "Mon compte"
 - inputText:
       id: "E-mail"
-      text: "johndoe@fo.dev"
+      text: "johndoe@foo.dev"
 - inputText:
       id: "Nom d'utilisateur"
-      text: "peyres"
+      text: "john"
 - inputText:
       id: "Mot de passe"
       text: "Test123456_"
@@ -16,14 +16,12 @@
 - inputText:
       id: "Prénom"
       text: "John"
-- inputText:
-      id: "Nom de Famille"
-      text: "Doe"
 - tapOn:
-    id: "J'accepte les conditions générales
-        et la politique de confidentialité"      
+      id: "J'accepte les conditions générales
+          et la politique de confidentialité"      
 - tapOn:
-    id: "Valider" 
+      id: "Valider" 
 - assertVisible:
-    text: "Ce nom d'utilisateur est déjà pris."  
-  
+      text: "Veuillez entrer un nom de famile valide"
+    
+ 
